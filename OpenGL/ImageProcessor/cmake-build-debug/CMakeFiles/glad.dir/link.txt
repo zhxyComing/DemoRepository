@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -dynamiclib -Wl,-headerpad_max_install_names  -o libglad.dylib -install_name @rpath/libglad.dylib CMakeFiles/glad.dir/Users/xuzheng/Lib/GLAD/src/glad.c.o 

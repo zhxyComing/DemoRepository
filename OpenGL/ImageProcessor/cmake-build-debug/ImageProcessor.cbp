@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImageProcessor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageProcessor">
+				<Option output="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/ImageProcessor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuzheng/Lib/GLFW/include"/>
+					<Add directory="/Users/xuzheng/Lib/GLAD/include"/>
+					<Add directory="/Users/xuzheng/Lib/glm/glm"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/Cellar/minizip/1.2.11/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageProcessor"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageProcessor/fast">
+				<Option output="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/ImageProcessor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuzheng/Lib/GLFW/include"/>
+					<Add directory="/Users/xuzheng/Lib/GLAD/include"/>
+					<Add directory="/Users/xuzheng/Lib/glm/glm"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/Cellar/minizip/1.2.11/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageProcessor/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/libglad.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuzheng/Lib/GLFW/include"/>
+					<Add directory="/Users/xuzheng/Lib/GLAD/include"/>
+					<Add directory="/Users/xuzheng/Lib/glm/glm"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/Cellar/minizip/1.2.11/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/libglad.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuzheng/Lib/GLFW/include"/>
+					<Add directory="/Users/xuzheng/Lib/GLAD/include"/>
+					<Add directory="/Users/xuzheng/Lib/glm/glm"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/Cellar/minizip/1.2.11/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/src/main.cpp">
+			<Option target="ImageProcessor"/>
+		</Unit>
+		<Unit filename="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/src/stb_image_loader.cpp">
+			<Option target="ImageProcessor"/>
+		</Unit>
+		<Unit filename="/Users/xuzheng/Lib/GLAD/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/xuzheng/DemoRepository/OpenGL/ImageProcessor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
